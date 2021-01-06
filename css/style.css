@@ -1,0 +1,114 @@
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #888;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #ffc107;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* side nav */
+
+.side_bar {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    left: -150px;
+    transition: left 0.7s;
+    width: 150px;
+}
+
+
+/* top nav */
+
+.top_nav,
+.top_nav:hover {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.top_nav li a {
+    color: #c49b21;
+}
+
+.top_nav li a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.hero_section {
+    height: 82vh;
+}
+
+
+/* hero section */
+
+.hero_image {
+    height: 80%;
+    position: relative;
+    top: -20px;
+    width: 60%;
+}
+
+.hero_image:hover {
+    height: 86%;
+    width: 65%;
+}
+
+
+/* specs */
+
+.specs_card:hover {
+    background-color: rgb(221, 220, 219);
+    box-shadow: -1px 2px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Details */
+
+.details_content img {
+    height: 90%;
+    width: 60%;
+}
+
+.details_content>div:first-child {
+    text-align: center;
+}
+
+.details_content>div:last-child>ul {
+    list-style-type: none;
+}
+
+
+/* teams */
+
+.team img {
+    height: 200px;
+    width: 150px;
+}
+
+.team_card:hover {
+    border: 1px solid white;
+    box-shadow: -1px 2px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* footer
+ */
+
+.footer_contact textarea {
+    width: 100%;
+}
+
+
+/* social icons */
